@@ -20,14 +20,5 @@ Both methods are evaluated on a labeled SMS dataset, and their results are visua
 5. **Visualization**: PCA is used to reduce the feature space for 2D visualization of clusters and outliers.
 
 
-## Visualization
-
-### K-Means Clustering
-- **Description**: K-Means divides the data into two clusters. One cluster (majority) contains ham messages, and the other (minority) contains spam messages.
-- **Observation**: Due to the imbalanced nature of the dataset, most points belong to the majority cluster, with some overlap between clusters in the PCA-reduced space.
-
-### Isolation Forest
-- **Description**: Isolation Forest flags outliers in the dataset, which correspond to potential spam messages.
-- **Observation**: The model identifies outliers as blue points, while inliers are shown as red points. Overlap between the two indicates possible false positives.
 
 
